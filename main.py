@@ -4,8 +4,8 @@ from cuidador import Cuidador
 from veterinario import Veterinario
 from alerta_salud import AlertaSalud
 from recordatorio import Recordatorio
-from gestor_excel import GestorExcel
-from interfaz_petly import InterfazPetly
+from Gestor_Excel import GestorExcel
+from Interfaz_Petly import InterfazPetly
 
 # 1. Inicialización del Backend (Excel con openpyxl)
 backend_excel = GestorExcel("petly_datos.xlsx")
